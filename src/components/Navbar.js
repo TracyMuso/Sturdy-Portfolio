@@ -9,10 +9,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { useEffect, useState } from 'react';
-import logo from './.assets./logo.svg';
-import navIcon1 from './.assets./nav-icon1.svg';
-import navIcon2 from './.assets./nav-icon2.svg';
-import navIcon3 from './.assets./nav-icon3.svg';
+import logo from '../assets/logo.svg'
+import navIcon1 from '../assets./nav-icon1.svg';
+import navIcon2 from '../assets./nav-icon2.svg';
+import navIcon3 from '../assets./nav-icon3.svg';
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState('Home');
