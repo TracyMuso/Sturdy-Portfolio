@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/control-has-associated-label */
@@ -9,7 +10,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { useEffect, useState } from 'react';
-import logo from '../assets/logo.svg'
+import logo from '../assets/logo.svg';
 import navIcon1 from '../assets./nav-icon1.svg';
 import navIcon2 from '../assets./nav-icon2.svg';
 import navIcon3 from '../assets./nav-icon3.svg';
