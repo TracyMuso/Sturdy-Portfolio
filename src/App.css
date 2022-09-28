@@ -46,6 +46,14 @@ nav.navbar a.navbar-brand {
   width: 9%;
 }
 
+.logo {
+  color: #fff;
+}
+
+nav.navbar .navbar-nav a.nav-link.navbar-link {
+  color: #fff;
+}
+
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link:active {
   opacity: 1;

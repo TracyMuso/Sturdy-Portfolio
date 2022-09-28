@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState, useEffect } from 'react';
 import { Col, Row, Alert } from 'react-bootstrap';
 import { PropTypes } from 'prop-types';
@@ -39,7 +40,7 @@ const Newsletter = ({ status, message, onValidated }) => {
           <Col md={6} xl={7}>
             <form onSubmit={handleSubmit}>
               <div className="new-email-bx">
-                <input value={email} type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" />
+                <input value={email} type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Your email" />
                 <button type="submit">Submit</button>
               </div>
             </form>
@@ -48,12 +49,6 @@ const Newsletter = ({ status, message, onValidated }) => {
       </div>
     </Col>
   );
-};
-
-Newsletter.propTypes = {
-  status: PropTypes.string.isRequired,
-  message: PropTypes.string.isRequired,
-  onValidated: PropTypes.func.isRequired,
 };
 
 export default Newsletter;

@@ -34,23 +34,23 @@ const Skills = () => {
         <Row>
           <Col>
             <div className="skill-bx">
-              <p>lorem ipsum decorum</p>
+              <strong>My skill stack</strong>
               <Carousel responsive={responsive} infinite={true} className="skill-slider">
                 <div className="item">
                   <img src={meter1} alt="pic" />
-                  <h5>Web dev</h5>
+                  <h5>React</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="pic" />
-                  <h5>block dev</h5>
+                  <h5>Rails</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="pic" />
-                  <h5>front dev</h5>
+                  <h5>Truffle</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="pic" />
-                  <h5>bacl dev</h5>
+                  <h5>React</h5>
                 </div>
               </Carousel>
             </div>

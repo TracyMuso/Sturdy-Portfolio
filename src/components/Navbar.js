@@ -11,7 +11,7 @@ import { HashLink } from 'react-router-hash-link';
 import { BrowserRouter as Router } from 'react-router-dom';
 import logo from '../img/logo.svg';
 import navIcon1 from '../img/nav-icon1.svg';
-import navIcon2 from '../img/nav-icon2.svg';
+import githublogo from '../img/github-logo.png';
 import navIcon3 from '../img/nav-icon3.svg';
 
 const NavBar = () => {
@@ -41,7 +41,7 @@ const NavBar = () => {
       <Navbar expand="md" className={scrolled ? 'scrolled' : ''}>
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" />
+            <h1 className="logo">TM</h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon" />
@@ -54,9 +54,9 @@ const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.linkedin.com/in/tracy-muso/"><img src={navIcon1} alt="linkedIn icon" /></a>
+                <a href="https://github.com/TracyMuso"><img src={githublogo} alt="github icon" className="github-icon" /></a>
+                <a href="https://instagram.com/tracy_muso"><img src={navIcon3} alt="instagram icon" /></a>
               </div>
               <HashLink to='#connect'>
                 <button type="button" className="vvd"><span>Let`s Connect</span></button>
