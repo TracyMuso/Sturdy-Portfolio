@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Container, Row, Col } from 'react-bootstrap';
-import logo from '../img/logo.svg';
 import navIcon1 from '../img/nav-icon1.svg';
 import githublogo from '../img/github-logo.png';
 import navIcon3 from '../img/nav-icon3.svg';
