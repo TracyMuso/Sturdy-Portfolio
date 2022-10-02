@@ -14,7 +14,7 @@
 
 ## Live Demo Link 
 
-- To see the live demo, click [here](https://tracy-muson.netlify.app/)
+- To see the live demo, click [here](https://tracy-muso.netlify.app/)
 
 ## Getting Started
 
@@ -44,7 +44,7 @@
 
     - Use the git clone command along with the copied URL from earlier;
 
-    - $ git clone https://github.com/elfin-git/Sturdy-Portfolio
+    - $ git clone https://github.com/TracyMuso/Sturdy-Portfolio
 
    - Press Enter;
 
@@ -88,7 +88,7 @@ npx eslint .
 
 👤 **Tracy Musongole**
 
-- GitHub: [@githubhandle](https://github.com/elfin-git)
+- GitHub: [@githubhandle](https://github.com/TracyMuso)
 - Twitter: [@twitterhandle](https://twitter.com/tracy_muso)
 - LinkedIn: [@LinkedIn](https://linkedin.com/in/tracy-muso/)
 
@@ -97,7 +97,7 @@ npx eslint .
 Contributions, issues, and feature requests are welcome!
 
 
-Feel free to check the [issues page](https://github.com/elfin-git/Sturdy-Portfolio/issues).
+Feel free to check the [issues page](https://github.com/TracyMuso/Sturdy-Portfolio/issues).
 
 ## Show your support
 
@@ -111,4 +111,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/elfin-git/Sturdy-Portfolio/blob/dev/LICENSE) licensed.
+This project is [MIT](https://github.com/TracyMuso/Sturdy-Portfolio/blob/dev/LICENSE) licensed.
