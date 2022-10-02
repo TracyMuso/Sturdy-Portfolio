@@ -12,9 +12,9 @@
 - Javascript
 - React
 
-## Live Demo 
+## Live Demo Link 
 
-To see the live demo, click [here](https://tracy-musongole.netlify.app/)
+- To see the live demo, click [here](https://tracy-muson.netlify.app/)
 
 ## Getting Started
 
