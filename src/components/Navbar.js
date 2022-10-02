@@ -58,9 +58,6 @@ const NavBar = () => {
                 <a href="https://github.com/TracyMuso"><img src={githublogo} alt="github icon" className="github-icon" /></a>
                 <a href="https://instagram.com/tracy_muso"><img src={navIcon3} alt="instagram icon" /></a>
               </div>
-              <HashLink to='#connect'>
-                <button type="button" className="vvd"><span>Let`s Connect</span></button>
-              </HashLink>
             </span>
           </Navbar.Collapse>
         </Container>

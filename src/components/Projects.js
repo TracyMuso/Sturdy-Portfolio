@@ -6,43 +6,45 @@
 import { Container, Row, Col, Tab, Nav } from 'react-bootstrap';
 import TrackVisibility from 'react-on-screen';
 import ProjectCard from './ProjectCard';
-import projImg1 from '../img/project-img1.png';
-import projImg2 from '../img/project-img2.png';
-import projImg3 from '../img/project-img3.png';
+import projImg1 from '../img/screenshot-dsk.png';
+import projImg2 from '../img/bookstoreUI.png';
+import projImg3 from '../img/appUI.png';
+import projImg4 from '../img/calcUI.png';
+import projImg5 from '../img/Homepage.png';
 import colorSharp2 from '../img/color-sharp2.png';
 import 'animate.css';
 
 const Projects = () => {
   const projects = [
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
-      imgUrl: projImg1,
-    },
-    {
-      title: 'Business Startup',
+      title: 'Bookstore',
       description: 'Design & Development',
       imgUrl: projImg2,
+      link: 'https://github.com/TracyMuso/Bookstore',
     },
     {
-      title: 'Business Startup',
+      title: 'Math Magicians',
+      description: 'A calculator app',
+      imgUrl: projImg4,
+      link: 'https://github.com/TracyMuso/Math-Magicians',
+    },
+    {
+      title: 'MovieLicious',
+      description: 'Movie info website',
+      imgUrl: projImg5,
+      link: 'https://github.com/TracyMuso/Capstone-project-2',
+    },
+    {
+      title: 'LeaderBoard',
       description: 'Design & Development',
       imgUrl: projImg3,
+      link: 'https://github.com/TracyMuso/Leaderboard',
     },
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
+      title: 'Blockchain Summit',
+      description: 'Conference website',
       imgUrl: projImg1,
-    },
-    {
-      title: 'Business Startup',
-      description: 'Design & Development',
-      imgUrl: projImg2,
-    },
-    {
-      title: 'Business Startup',
-      description: 'Design & Development',
-      imgUrl: projImg3,
+      link: 'https://github.com/TracyMuso/Capstone-project-1',
     },
   ];
 

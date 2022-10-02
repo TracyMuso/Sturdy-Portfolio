@@ -28,7 +28,8 @@
     "no-unused-vars": "off",
     "no-unused-expressions": "off",
     "operator-linebreak": "off",
-    "implicit-arrow-linebreak": "off"
+    "implicit-arrow-linebreak": "off",
+    "object-curly-newline": "off"
   },
   "ignorePatterns": [
     "dist/",

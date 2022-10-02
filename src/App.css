@@ -328,6 +328,33 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+/************ About Css ************/
+.about {
+  padding: 1rem;
+}
+
+.about h2 {
+  padding: 1rem;
+}
+
+.about p {
+  padding: 0.5rem;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.skill-set {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.skill-set li {
+  padding: 0.1rem;
+}
+
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
@@ -413,11 +440,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 0 55px 55px 0;
 }
 
+#about h1 {
+  font-weight: 800;
+}
+
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  height: 10rem;
+}
+
+.pr-pic {
+  width: 100%;
 }
 
 .proj-imgbx::before {
