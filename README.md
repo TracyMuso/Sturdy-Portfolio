@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+## Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> This is my professional portfolio as a web developer. It displays the projects I worked on and my skill stack. I got inspiration from [Judy Gab](https://github.com/judygab), from her [Personal portfolio project](https://github.com/judygab/web-dev-projects/tree/main/personal-portfolio). 
 
-## Available Scripts
 
-In the project directory, you can run:
+<img src="./src/img/portfolioUI.png" width="700" height="500">
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- HTML & CSS
+- Javascript
+- React
 
-### `npm test`
+## Live Demo 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To see the live demo, click [here](https://tracy-musongole.netlify.app/)
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**To get a local copy up and running follow these simple example steps.**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Github flow knowledge. -Intermediate CSS, HTML and Javascript. -Installation of linter files. -install webpack
 
-### `npm run eject`
+# Setup 
+- To get a local copy follow these simple steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Clone Your Github Repository Follow these steps to clone your Clone Your Github Repository Follow these steps to clone my Github repo on Windows:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   - Open Git Bash;
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   - If Git is not already installed, it is super simple. Just go to the Git Download Folder and follow the instructions.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   - Go to the current directory where you want the cloned directory to be added;
 
-## Learn More
+   - To do this, input cd and add your folder location. You can add the folder location by dragging the folder to Git bash.
+    $ cd '/c/Users/Documents/My Git Project'
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    - Go to the page of the repository that you want to clone.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    - Click on “Clone or download” and copy the URL.
 
-### Code Splitting
+    - Use the git clone command along with the copied URL from earlier;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    - $ git clone https://github.com/elfin-git/Sturdy-Portfolio
 
-### Analyzing the Bundle Size
+   - Press Enter;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Tests and Configuration
 
-### Making a Progressive Web App
+To track linter errors locally follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Download all the dependencies run:
 
-### Advanced Configuration
+<code>
+npm install
+</code>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Track HTML linter errors run:**
 
-### Deployment
+<code>
+npx hint .
+</code>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Track CSS linter errors run:**
+<code>
+npx stylelint "**/*.{css,scss}"
+</code>
 
-### `npm run build` fails to minify
+**Track JavaScript linter errors run:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<code>
+npx eslint .
+</code>
+
+# Usage
+- This can be used as a personal/professional portfolio, it is opensource. One can check out all my projects and skills.
+
+# Install
+- Set up Github Actions
+- Set up linter > Lighthouse , Webhint ,Stylelint , Eslint.
+- React
+- Jest for  testing
+
+## Author
+
+👤 **Tracy Musongole**
+
+- GitHub: [@githubhandle](https://github.com/elfin-git)
+- Twitter: [@twitterhandle](https://twitter.com/tracy_muso)
+- LinkedIn: [@LinkedIn](https://linkedin.com/in/tracy-muso/)
+
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+
+
+Feel free to check the [issues page](https://github.com/elfin-git/Sturdy-Portfolio/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](https://github.com/elfin-git/Sturdy-Portfolio/blob/dev/LICENSE) licensed.

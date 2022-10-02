@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from './components/navbar';
+import NavBar from './components/Navbar';
 import Banner from './components/Banner';
 import About from './components/About';
 import Skills from './components/Skills';
