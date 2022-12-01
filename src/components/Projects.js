@@ -7,9 +7,9 @@ import { Container, Row, Col, Tab, Nav } from 'react-bootstrap';
 import TrackVisibility from 'react-on-screen';
 import ProjectCard from './ProjectCard';
 import projImg1 from '../img/screenshot-dsk.png';
-import projImg2 from '../img/bookstoreUI.png';
-import projImg3 from '../img/appUI.png';
-import projImg4 from '../img/calcUI.png';
+import projImg2 from '../img/space-travelersUI.png';
+import projImg3 from '../img/roninUI.png';
+import projImg4 from '../img/bmac-sc.png';
 import projImg5 from '../img/Homepage.png';
 import colorSharp2 from '../img/color-sharp2.png';
 import 'animate.css';
@@ -17,16 +17,16 @@ import 'animate.css';
 const Projects = () => {
   const projects = [
     {
-      title: 'Bookstore',
+      title: 'Space Travellers Hub',
       description: 'Design & Development',
       imgUrl: projImg2,
-      link: 'https://github.com/TracyMuso/Bookstore',
+      link: 'https://github.com/TracyMuso/space-travelers-hub-online',
     },
     {
-      title: 'Math Magicians',
-      description: 'A calculator app',
+      title: 'Buy Me A Coffee',
+      description: 'Blockchain development',
       imgUrl: projImg4,
-      link: 'https://github.com/TracyMuso/Math-Magicians',
+      link: 'https://github.com/TracyMuso/Buy-Me-A-Coffee/',
     },
     {
       title: 'MovieLicious',
@@ -35,10 +35,10 @@ const Projects = () => {
       link: 'https://github.com/TracyMuso/Capstone-project-2',
     },
     {
-      title: 'LeaderBoard',
+      title: 'Ronin Finance',
       description: 'Design & Development',
       imgUrl: projImg3,
-      link: 'https://github.com/TracyMuso/Leaderboard',
+      link: 'https://github.com/TracyMuso/Ronin-Finance',
     },
     {
       title: 'Blockchain Summit',

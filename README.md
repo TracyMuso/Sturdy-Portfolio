@@ -5,7 +5,6 @@
 
 <img src="./src/img/portfolioUI.png" width="700" height="500">
 
-
 ## Built With
 
 - HTML & CSS
@@ -14,7 +13,7 @@
 
 ## Live Demo Link 
 
-- To see the live demo, click [here](https://tracy-muso.netlify.app/)
+- To see the live version, click [here](https://tracy-muso.netlify.app/)
 
 ## Getting Started
 
