@@ -17,8 +17,10 @@ const ContactInfo = () => {
                 +260 779 431 887
               </p>
               <p>
-                <span>Email: </span>
-                <a href="mailto:musongoletracy@gmail.com">musongoletracy@gmail.com</a>
+                <span>Gmail: </span>
+                <button type="button" className="email-btn">
+                  <a href="mailto:musongoletracy@gmail.com">Say hello</a>
+                </button>
               </p>
             </TrackVisibility>
           </Col>
