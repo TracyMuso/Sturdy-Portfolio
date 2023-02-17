@@ -12,39 +12,45 @@ import projImg3 from '../img/roninUI.png';
 import projImg4 from '../img/bmac-sc.png';
 import projImg5 from '../img/Homepage.png';
 import colorSharp2 from '../img/color-sharp2.png';
+import melodyRentals from '../img/melody.png';
 import 'animate.css';
 
 const Projects = () => {
   const projects = [
     {
       title: 'Space Travellers Hub',
-      description: 'Design & Development',
+      description: 'Rocket booking app, made with React, Redux, and bootstrap',
       imgUrl: projImg2,
-      link: 'https://github.com/TracyMuso/space-travelers-hub-online',
+      liveLink: 'https://space-uber.netlify.app/',
+      sourcelink: 'https://github.com/TracyMuso/space-travelers-hub-online',
     },
     {
-      title: 'Buy Me A Coffee',
-      description: 'Blockchain development',
-      imgUrl: projImg4,
-      link: 'https://github.com/TracyMuso/Buy-Me-A-Coffee/',
+      title: 'Melody Rentals',
+      description: 'Instrument rental API, made with Ruby on Rails, PostgreSQL, and Render',
+      imgUrl: melodyRentals,
+      liveLink: 'https://melody-rentals.onrender.com/api/v1/instruments.json',
+      sourceLink: 'https://github.com/TracyMuso/MelodyRentals-BackEnd',
     },
     {
       title: 'MovieLicious',
-      description: 'Movie info website',
+      description: 'Movie info website, made with Javascript, TVmaze API, and Bootstrap',
       imgUrl: projImg5,
-      link: 'https://github.com/TracyMuso/Capstone-project-2',
+      liveLink: 'https://tracymuso.github.io/Capstone-project-2/dist/',
+      sourceLink: 'https://github.com/TracyMuso/Capstone-project-2',
     },
     {
       title: 'Ronin Finance',
-      description: 'Design & Development',
+      description: 'Crypto tracker app, made with React, Redux, and Bootstrap',
       imgUrl: projImg3,
-      link: 'https://github.com/TracyMuso/Ronin-Finance',
+      liveLink: 'https://ronin-finance.netlify.app/',
+      sourceLink: 'https://github.com/TracyMuso/Ronin-Finance',
     },
     {
       title: 'Blockchain Summit',
-      description: 'Conference website',
+      description: 'Conference website made with HTML, CSS, and Javascript',
       imgUrl: projImg1,
-      link: 'https://github.com/TracyMuso/Capstone-project-1',
+      liveLink: 'https://tracymuso.github.io/Capstone-project-1/',
+      sourceLink: 'https://github.com/TracyMuso/Capstone-project-1',
     },
   ];
 

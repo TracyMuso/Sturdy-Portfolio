@@ -259,6 +259,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 
+.btn-p {
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: #d64c9f;
+}
+
+.btn-p a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .banner img {
   animation: updown 3s linear infinite;
 }
@@ -339,11 +350,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .about p {
   padding: 0.5rem;
+  color: #b8b8b8;
 }
 
 .skill-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 3rem;
 }
 
 .skill-set {
@@ -353,6 +366,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .skill-set li {
   padding: 0.1rem;
+}
+
+.skill-card {
+  padding: 1rem;
+  background-color: #9c9999;
+  border: solid 1px rgb(231, 218, 218);
+  border-radius: 10px;
+  margin: 0.5rem 0.5rem;
 }
 
 /************ Projects Css ************/
@@ -366,6 +387,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
+}
+
+.btn-link {
+  padding: 0.5rem;
+  border-radius: 10px;
 }
 
 .project p {
@@ -523,6 +549,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-size: 45px;
 	font-weight: 700;
   margin-bottom: 30px;
+}
+
+.email-btn {
+  padding: 0.5rem;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
 }
 
 .contact form input,

@@ -13,7 +13,7 @@ const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ['Web Developer', 'Blockchain Developer', 'Web Designer'];
+  const toRotate = ['Backend Developer', 'Frontend Developer', 'Web Designer'];
   const period = 1000;
 
   useEffect(() => {
@@ -61,9 +61,12 @@ const Banner = () => {
                   <h1>
                     {'Hi! I\'m Tracy, a'}
                     {' '}
-                    <span className="txt-rotate" data-period="1000" data-rotate='[ "Web Developer", "Blockchain Developer", "Web Designer" ]'><span className="wrap">{text}</span></span>
+                    <span className="txt-rotate" data-period="1000" data-rotate='[ "Backend Developer", "Frontend Developer", "Web Designer" ]'><span className="wrap">{text}</span></span>
                   </h1>
-                  <p>I am fullstack developer specializing in building and designing mobile and web applications. I am also quite the blockchain enthusiast.</p>
+                  <p>I am fullstack developer specializing in building and designing single-page applications and API`s. I am an open-source enthusiast and mentor to 2 junior developers.</p>
+                  <button type="button" className="btn-p">
+                    <a href="#projects">Check out my projects &#8595;</a>
+                  </button>
                 </div>
               )}
             </TrackVisibility>
