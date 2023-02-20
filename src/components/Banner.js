@@ -63,7 +63,7 @@ const Banner = () => {
                     {' '}
                     <span className="txt-rotate" data-period="1000" data-rotate='[ "Backend Developer", "Frontend Developer", "Web Designer" ]'><span className="wrap">{text}</span></span>
                   </h1>
-                  <p>I am fullstack developer specializing in building and designing single-page applications and API`s. I am an open-source enthusiast and mentor to 2 junior developers.</p>
+                  <p>I am a fullstack developer specializing in building and designing single-page applications and API`s. I am an open-source enthusiast and mentor to 2 junior developers.</p>
                   <button type="button" className="btn-p">
                     <a href="#projects">Check out my projects &#8595;</a>
                   </button>

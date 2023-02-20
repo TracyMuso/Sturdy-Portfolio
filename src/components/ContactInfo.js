@@ -10,7 +10,7 @@ const ContactInfo = () => {
           <Col size={12} md={6}>
             <TrackVisibility>
               <h2>Contact Info</h2>
-              <p>If you want ot get in touch, please contact me from my email or my number which is also connected to whatsapp</p>
+              <p>If you want to get in touch, please reach out to me via my email or whatsapp number</p>
               <p>
                 <span>Phone:</span>
                 {' '}

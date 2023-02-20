@@ -7,7 +7,7 @@ const About = () => {
         <Row>
           <h2>About me</h2>
           <p>
-            Software developer by day, blockchain enthusiast by night. My interest in software development started back in 2021 and my interest in blockchain development started way before that. I dabbled in smart contracts for a bit and decided to learn fullstack development instead. Last year February, I enrolled in Microverse, an online school that teaches fullstack development with real world projects. I collaborative with international developers every weekday and simultaneously build frontend and backend projects with React and Ruby on Rails, which is my preferred technology. Wanna get in touch?
+            Software developer by day, blockchain enthusiast by night. My interest in software development started back in 2021 and my interest in blockchain development started way before that. I dabbled in smart contracts for a bit and decided to learn fullstack development instead. Last year February, I enrolled in Microverse, an online school that teaches fullstack development with real world projects. I collaborate with international developers everyday and simultaneously build frontend and backend projects with React and Ruby on Rails, which is my preferred technology. Wanna get in touch?
             {' '}
             <a href="#connect">Contact me</a>
             {' '}
