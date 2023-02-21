@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/control-has-associated-label */
 /* eslint-disable react/jsx-indent-props */
@@ -13,6 +15,9 @@ import logo from '../img/logo.svg';
 import navIcon1 from '../img/nav-icon1.svg';
 import githublogo from '../img/github-logo.png';
 import navIcon3 from '../img/nav-icon3.svg';
+import medium from '../img/medium-new-icon.png';
+import wellfound from '../img/wellfound.jpg';
+import linkedin from '../img/linkedin-svgrepo-com.svg';
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
@@ -54,9 +59,9 @@ const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/tracy-muso/"><img src={navIcon1} alt="linkedIn icon" /></a>
-                <a href="https://github.com/TracyMuso"><img src={githublogo} alt="github icon" className="github-icon" /></a>
-                <a href="https://instagram.com/tracy_muso"><img src={navIcon3} alt="instagram icon" /></a>
+                <span className="git-icon" onClick={() => window.open('https://www.linkedin.com/in/tracy-muso/')}><img src={linkedin} alt="linkedIn icon" className="github-icon" /></span>
+                <span className="git-icon" onClick={() => window.open('https://github.com/TracyMuso')}><img src={githublogo} alt="github icon" className="github-icon" /></span>
+                <span className="git-icon" onClick={() => window.open('https://medium.com/@musongoletracy')}><img src={medium} alt="instagram icon" className="github-icon" /></span>
               </div>
             </span>
           </Navbar.Collapse>

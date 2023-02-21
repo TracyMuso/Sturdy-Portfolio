@@ -75,7 +75,7 @@ const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? 'animate__animated animate__zoomIn' : ''}>
-                  <img src={headerImg} alt="Header Img" />
+                  <img className="small-img" src={headerImg} alt="Header Img" />
                 </div>
               )}
             </TrackVisibility>
